@@ -1,0 +1,21 @@
+from nutree import Tree
+
+tree = Tree("Silsilah")
+
+kakek = tree.add("Jamin & Soyi")
+anak1 = kakek.add("Sarwidi & Dani")
+anak2 = kakek.add("Rukini & Daryono")
+anak3 = kakek.add("Supanti & Rusdiyanto")
+anak4 = kakek.add("Sumiyanto & Riska")
+anak1.add("Naufal")
+anak1.add("Ammar")
+anak1.add("Affan")
+anak2.add("Fikri")
+anak2.add("Agung")
+anak3.add("Arsyad")
+anak3.add("Amhar")
+anak3.add("Aslam")
+anak4.add("Abrisam")
+anak4.add("Faruq")
+anak4.add("Akmal")
+tree.print()
